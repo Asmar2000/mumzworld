@@ -57,7 +57,7 @@ class Home{
         cy.contains('Item subtotal').should('be.exist');
         cy.contains('VAT (%5)').should('be.exist');
         cy.contains('Order total').should('be.exist');
-        cy.contains('Place order').should('be.exist');
+        cy.contains('Place Order').should('be.exist');
         //cy.placeOrder().click()
     }
 
