@@ -4,9 +4,9 @@
   "description": "cypress automation framework",
   "main": "index.js",
   "scripts": {
-    "build": "npm cypress run"
+    "build": "npx cypress run"
   },
-  "author": "Ahmed Taher",
+  "author": "Mahmoud Lotfy",
   "license": "ISC",
   "devDependencies": {
     "cy-verify-downloads": "^0.1.11",
