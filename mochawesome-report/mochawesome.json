@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-09-07T12:50:17.658Z",
+    "end": "2024-09-07T12:50:54.750Z",
+    "duration": 37092,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3b00ee48-79e0-4a1a-8d44-fc5d1761aac9",
+      "title": "",
+      "fullFile": "cypress\\e2e\\spec.cy.js",
+      "file": "cypress\\e2e\\spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8efd8a81-3c59-48a4-ae50-0acd53f5b222",
+          "title": "Smoke Testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "buy a product full flow",
+              "fullTitle": "Smoke Testing buy a product full flow",
+              "timedOut": null,
+              "duration": 34899,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Test.SearchforProduct();\nTest.SelectProduct();\nTest.AddToCart();\nTest.ViewCart();\nTest.increaseQuantity();\nTest.proceedToCheckout();\nauth.navigateToRegister();\nauth.registerNewUser();\nTest.placeOrder();",
+              "err": {},
+              "uuid": "fee08e35-6c6c-418b-94ec-a9b0880e804a",
+              "parentUUID": "8efd8a81-3c59-48a4-ae50-0acd53f5b222",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fee08e35-6c6c-418b-94ec-a9b0880e804a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 34899,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
