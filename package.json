@@ -1,13 +1,10 @@
 {
-  "name": "cpms-portal-automation",
+  "name": "mumzworld",
   "version": "1.0.0",
-  "description": "testing cpms portal using cypress",
+  "description": "mumzworld task",
   "main": "index.js",
   "scripts": {
-    "start:ci": "next dev",
-    "operator": "npx cypress run --spec cypress/e2e/operators.cy.js",
-    "login": "npx cypress run --spec cypress/e2e/login.cy.js",
-    "chargepoints": "npx cypress run --spec cypress/e2e/chargepoints.cy.js"
+
   },
   "author": "Mahmoud Lotfy",
   "license": "ISC",
