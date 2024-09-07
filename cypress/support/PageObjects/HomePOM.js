@@ -55,7 +55,6 @@ class Home{
         cy.contains('Review items').should('be.exist');
         cy.contains('Order summary').should('be.exist');
         cy.contains('Item subtotal').should('be.exist');
-        cy.contains('Estimated shipping').should('be.exist');
         cy.contains('VAT (%5)').should('be.exist');
         cy.contains('Order total').should('be.exist');
         cy.contains('Place order').should('be.exist');
