@@ -35,13 +35,13 @@ Cypress.Commands.add('terms_conditions', () => {
     cy.get('[name="terms_and_conditions"]')
 })
 Cypress.Commands.add('confirmRegistration', () => {
-    cy.contains('Register')
+    cy.get(".createAccount-root-2hg  button[title='Register']")
 
 })
 //Search
 
 Cypress.Commands.add('searchField', () => {
-    cy.contains('What are you looking for?')
+    cy.get('[placeholder="What are you looking for?"]')
 })
 Cypress.Commands.add('searchButton', () => {
     cy.get('[title="Submit your search query"]')
@@ -61,4 +61,8 @@ Cypress.Commands.add('viewCart', () => {
 //increase quantity
 Cypress.Commands.add('increaseQuantity', () => {
     cy.get(".product-detailsRight-2ix  form input[name='quantity']")
+})
+//Proceed to checkout
+Cypress.Commands.add('proceedToCheckout', () => {
+    cy.get(".proceedToCheckoutBtn-root-2ra > button[title='Proceed to Checkout']")
 })

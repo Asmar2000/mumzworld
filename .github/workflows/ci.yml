@@ -1,0 +1,17 @@
+name: mumzworld-cypress
+on:
+  workflow_dispatch:
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+      - name: Upload test result report
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-results
+          path: cypress/results

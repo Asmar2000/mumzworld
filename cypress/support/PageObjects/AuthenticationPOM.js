@@ -16,12 +16,14 @@ class Authentication {
         cy.confirmRegistration().click()
 
     }
-    SuccessLogin(){
-        cy.userNameField().type(email) 
-        cy.passwordField().type(data.password) 
-        cy.SigninBTN().click()
-
-
+    navigateToLogin() {
+        cy.LoginBTN().click()
     }
+    sucessLogin() {
+        cy.userNameField().type(email)
+        cy.passwordField().type(data.password)
+        cy.SigninBTN().click()
+    }
+    
 }
 export default Authentication;
