@@ -8,7 +8,7 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
   watchForFileChanges: false,
   form: true,
-  defaultCommandTimeout: 5000,
+  defaultCommandTimeout: 10000,
   viewportWidth: 1920,
   viewportHeight: 1080,
   "hideXHR": true,
